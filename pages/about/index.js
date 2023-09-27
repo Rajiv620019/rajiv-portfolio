@@ -145,7 +145,7 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
             2 years ago I decided to switch to the tech industry, since then{" "}
-            {`I've`}
+            {`I've `}
             learned a ton of things worked with startups, and collaborated on
             digital products for business and consumer use. I have built a bunch
             of projects in the Web 2 and in the web 3 space and I really love
