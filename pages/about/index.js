@@ -29,26 +29,26 @@ export const aboutData = [
       {
         title: "Frontend",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiTailwindcss />,
-          <SiVercel />,
+          <FaHtml5 key={0} />,
+          <FaCss3 key={1} />,
+          <FaJs key={2} />,
+          <FaReact key={3} />,
+          <SiNextdotjs key={4} />,
+          <SiTailwindcss key={5} />,
+          <SiVercel key={6} />,
         ],
       },
       {
         title: "Backend",
         icons: [
-          <FaJava />,
-          <SiSolidity />,
-          <SiSpringboot />,
-          <FaHardHat />,
-          <SiMysql />,
+          <FaJava key={7} />,
+          <SiSolidity key={8} />,
+          <SiSpringboot key={9} />,
+          <FaHardHat key={10} />,
+          <SiMysql key={11} />,
           // <SiMongodb />,
-          <SiGit />,
-          <SiPostman />,
+          <SiGit key={12} />,
+          <SiPostman key={13} />,
         ],
       },
     ],
@@ -144,11 +144,11 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            2 years ago I decided to switch to the tech industry, since then
-            I've learned a ton of things worked with startups, and collaborated
-            on digital products for business and consumer use. I have built a
-            bunch of projects in the Web 2 and in the web 3 space and I really
-            love doing that.
+            2 years ago I decided to switch to the tech industry, since then Ive
+            learned a ton of things worked with startups, and collaborated on
+            digital products for business and consumer use. I have built a bunch
+            of projects in the Web 2 and in the web 3 space and I really love
+            doing that.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -236,7 +236,11 @@ const About = () => {
                   <div className="flex gap-x-4">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div className="text-2xl text-white">{icon}</div>;
+                      return (
+                        <div key={itemIndex} className="text-2xl text-white">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>
