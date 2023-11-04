@@ -19,6 +19,8 @@ import {
   SiSpringboot,
   SiPostman,
   SiVercel,
+  SiDocker,
+  SiTypescript,
 } from "react-icons/si";
 
 //  about data
@@ -32,10 +34,11 @@ export const aboutData = [
           <FaHtml5 key={0} />,
           <FaCss3 key={1} />,
           <FaJs key={2} />,
-          <FaReact key={3} />,
-          <SiNextdotjs key={4} />,
-          <SiTailwindcss key={5} />,
-          <SiVercel key={6} />,
+          <SiTypescript key={3} />,
+          <FaReact key={4} />,
+          <SiNextdotjs key={5} />,
+          <SiTailwindcss key={6} />,
+          <SiVercel key={7} />,
         ],
       },
       {
@@ -46,9 +49,10 @@ export const aboutData = [
           <SiSpringboot key={9} />,
           <FaHardHat key={10} />,
           <SiMysql key={11} />,
+          <SiDocker key={12} />,
           // <SiMongodb />,
-          <SiGit key={12} />,
-          <SiPostman key={13} />,
+          <SiGit key={13} />,
+          <SiPostman key={14} />,
         ],
       },
     ],
