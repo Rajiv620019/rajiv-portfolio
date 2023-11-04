@@ -28,7 +28,7 @@ const Socials = () => {
         <RiLinkedinBoxFill />
       </Link>
       <Link
-        href={"https://twitter.com/RajivS21975342"}
+        href={"https://twitter.com/rajiv_17_"}
         className="hover:text-accent transition-all duration-300"
       >
         <RiTwitterFill />
