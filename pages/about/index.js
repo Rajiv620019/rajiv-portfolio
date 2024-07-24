@@ -8,6 +8,8 @@ import {
   FaReact,
   FaHardHat,
   FaJava,
+  FaPython,
+  FaAws,
 } from "react-icons/fa";
 
 import {
@@ -21,6 +23,20 @@ import {
   SiVercel,
   SiDocker,
   SiTypescript,
+  SiRedux,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiMongoose,
+  SiPostgresql,
+  SiPrisma,
+  SiCloudflare,
+  SiJavascript,
+  SiReact,
+  SiHibernate,
+  SiGithub,
+  SiNetlify,
+  SiFigma,
 } from "react-icons/si";
 
 //  about data
@@ -29,31 +45,51 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Frontend",
+        title: "Languages",
         icons: [
+          <SiJavascript key={2} />,
+          <SiTypescript key={3} />,
+          <SiSolidity key={44} />,
+          <FaPython key={4} />,
+          <FaJava key={5} />,
           <FaHtml5 key={0} />,
           <FaCss3 key={1} />,
-          <FaJs key={2} />,
-          <SiTypescript key={3} />,
-          <FaReact key={4} />,
-          <SiNextdotjs key={5} />,
-          <SiTailwindcss key={6} />,
-          <SiVercel key={7} />,
         ],
       },
       {
-        title: "Backend",
+        title: "Frameworks",
         icons: [
-          <FaJava key={7} />,
-          <SiSolidity key={8} />,
-          <SiSpringboot key={9} />,
-          <FaHardHat key={10} />,
-          <SiMysql key={11} />,
-          <SiDocker key={12} />,
-          // <SiMongodb />,
-          <SiGit key={13} />,
-          <SiPostman key={14} />,
+          <SiReact key={6} />,
+          <SiNextdotjs key={7} />,
+          <SiNodedotjs key={8} />,
+          <SiExpress key={9} />,
+          <SiTailwindcss key={10} />,
         ],
+      },
+
+      {
+        title: "Database",
+        icons: [<SiMongodb key={11} />, <SiPostgresql key={12} />],
+      },
+      {
+        title: "ORM",
+        icons: [<SiPrisma key={13} />, <SiHibernate key={14} />],
+      },
+      {
+        title: "Tools/Lib",
+        icons: [
+          <SiDocker key={45} />,
+          <SiPostman key={46} />,
+          <SiFigma key={50} />,
+          <SiGit key={47} />,
+          <SiGithub key={48} />,
+          <SiVercel key={49} />,
+          <SiNetlify key={49} />,
+        ],
+      },
+      {
+        title: "Cloud",
+        icons: [<SiCloudflare key={15} />, <FaAws key={16} />],
       },
     ],
   },
@@ -138,8 +174,8 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Web <span className="text-accent">2</span> &{" "}
-            <span className="text-accent">3</span> Enthusiast.
+            <span className="text-accent">AI</span> &{" "}
+            <span className="text-accent">Web 3.0</span> Enthusiast.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -185,10 +221,10 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={20} duration={5} /> +
+                  <CountUp start={0} end={30} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Finished projects
+                  Projects
                 </div>
               </div>
               {/* courses */}

@@ -36,12 +36,12 @@ export const serviceData = [
     icon: <RxDesktop />,
     title: "Backend",
     description:
-      "Backend development with Solidity, Java, Foundry or Hardhat, Ethers.js.",
+      "Backend development with express, node, typescript & mongo/postgres",
   },
   {
     icon: <RxReader />,
     title: "Consulting",
-    description: "Consulting for Web 3.0 projects.",
+    description: "Consulting for AI projects.",
   },
 ];
 

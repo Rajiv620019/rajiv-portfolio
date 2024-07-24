@@ -22,7 +22,7 @@ const Socials = () => {
         <RiMailFill />
       </Link>
       <Link
-        href={"https://www.linkedin.com/in/rajiv-s-2bb454199/"}
+        href={"https://www.linkedin.com/in/rajiv-s-%F0%9F%A4%96-2bb454199/"}
         className="hover:text-accent transition-all duration-300"
       >
         <RiLinkedinBoxFill />
