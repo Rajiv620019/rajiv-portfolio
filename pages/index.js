@@ -26,8 +26,9 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Empowering the <br />
-            <span className="text-accent">Blockchain Revolution</span>
+            Expert Developer <br />
+            <span className="text-accent">&</span>
+            <span className="ml-5">AI Guide</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -37,10 +38,16 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Experienced blockchain developer with 1 year of expertise in
-            crafting Frontend solutions and Decentralized Applications on
-            Ethereum and Polygon chains. Consistently delivering high-quality,
-            forward-thinking solutions.
+            With 2 years of experience as a software developer, I specialize in
+            building complex web apps using a wide array of technologies. In
+            addition to my development work,{" "}
+            <span className="text-accent font-medium">I am an AI educator</span>{" "}
+            on LinkedIn and Twitter, where I share my expertise and guide others
+            in leveraging AI tools. My content has reached over{" "}
+            <span className="text-accent font-medium">2 million people</span>,
+            and I have amassed a following of{" "}
+            <span className="text-accent font-medium">13,000+</span> engaged
+            learners and professionals.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">

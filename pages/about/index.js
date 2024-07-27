@@ -110,13 +110,13 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Blockchain Developer - Intern - WNE3, Remote",
-        stage: "July 2023 - Present",
+        title: "Blockchain Developer - WNE3, Remote",
+        stage: "July 2023 - December 2023",
       },
       {
         title:
           "Fullstack Developer - Intern - Lentera Technologies Pvt Ltd, Chennai, India",
-        stage: " February 2023 - June 2023",
+        stage: "February 2023 - June 2023",
       },
     ],
   },
@@ -137,8 +137,6 @@ export const aboutData = [
   },
 ];
 
-// components
-import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
 
 // framer motion

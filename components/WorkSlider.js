@@ -58,6 +58,25 @@ export const workSlider = {
         },
       ],
     },
+    {
+      images: [
+        {
+          title: "PayTM",
+          path: "/payTM.jpeg",
+          gitHub: "https://github.com/Rajiv620019/paytm",
+        },
+        {
+          title: "Medium",
+          path: "/medium.jpeg",
+          gitHub: "https://github.com/Rajiv620019/medium",
+        },
+        // {
+        //   title: "Zerodha",
+        //   path: "/zerodha.jpeg",
+        //   gitHub: "https://github.com/Rajiv620019/medium",
+        // },
+      ],
+    },
   ],
 };
 
